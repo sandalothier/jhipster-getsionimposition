@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "getsionimposition",
+    "packageName": "com.fisc.getsionimposition",
+    "packageFolder": "com/fisc/getsionimposition",
+    "serverPort": 8117,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "YzlhODlkY2MyYzlmNmMxNTYyNTA4ZDA5ZDJiMzgwNTQ4NWZkNzM3ODk2ZGQ3OTk1OTdmNzQ2NzcyYTYyMWI4YTY2ZGJjODZlYzgyZDQ2YWQ4MTExZDYzYjJhNjhhYWE5NzJiYjcyYjIzYWE3YWI2ODE1MjI4ZTBkMjU1Nzc3MTI=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "sandalothier",
+  "repository-name": "jhipster-getsionimposition"
+}
